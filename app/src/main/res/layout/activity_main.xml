@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="424dp"
+        android:layout_height="68dp"
+        android:background="#a0a0a0"
+        android:gravity="center"
+        android:text="Wireframes PDMN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/TxtNom"
+        android:hint="Introdueix el teu nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/LblNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/BtnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Saluda"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="160dp">
+
+        <RadioButton
+            android:id="@+id/metro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metro"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/patinet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patinet"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/moto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moto"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/LblTransport"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+
+
+
+</LinearLayout>
